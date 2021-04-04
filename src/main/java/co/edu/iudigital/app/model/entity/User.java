@@ -27,7 +27,7 @@ public class User implements Serializable {
 	
 	// es una variable de fecha entonces la declaro asi como sigue.
 	//como se llama diferente a la tabla de la base de datos entonces le creo la columna
-	@Column(name = "created_at") 
+	@Column(name = "create_at") 
 	private LocalDateTime createAt;
 	
 	//en la tabla user profile_id es una llave foranea que viene de la tabla profile OJO CON ESTO:
